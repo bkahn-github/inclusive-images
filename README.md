@@ -70,3 +70,16 @@ c.NotebookApp.port = 5000
 `python -m pip install ipykernel`  
 `python -m ipykernel install --user --name=py_36_env`
 
+### Step 10: Setup Kaggle API
+
+`mkdir .kaggle`  
+`cd .kaggle`  
+`vim kaggle.json`
+
+Add your kaggle api key
+
+### Step 11: Download Data
+
+### Step 12: Run jupyter lab
+
+`jupyter lab`

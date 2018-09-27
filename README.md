@@ -44,9 +44,9 @@ Build python
 
 ### Step 7: Clone Repo
 
-`git clone https://github.com/bkahn-github/inclusive-images.git`
-`cd inclusive-images`
-`pip install -r requirements.txt`
+`git clone https://github.com/bkahn-github/inclusive-images.git`  
+`cd inclusive-images`  
+`pip install -r requirements.txt`  
 `cd ..`
 
 

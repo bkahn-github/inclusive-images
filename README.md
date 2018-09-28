@@ -80,6 +80,16 @@ Add your kaggle api key
 
 ### Step 11: Download Data
 
+`mkdir inclusive-images`  
+`cd inclusive-images`  
+`kaggle competitions download -c inclusive-images-challenge`
+
+`pip install awscli`  
+
+0-9 and a-f  
+`aws s3 --no-sign-request cp s3://open-images-dataset/tar/train_0.tar.gz train`   
+`tar -xzf train_0.tar.gz`
+
 ### Step 12: Run jupyter lab
 
 `jupyter lab`

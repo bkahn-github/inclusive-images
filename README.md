@@ -15,7 +15,11 @@ Port Number: `tcp:5000`
 
 `gcloud compute ssh [user]@[instance]`
 
-### Step 5: Install python 3.6
+## Use Python3.6 or Conda
+
+### Python3.6:
+
+#### Step 1: Install python 3.6
 
 Install required build tools
 
@@ -37,16 +41,26 @@ Build python
 `sudo make altinstall`  
 `cd ..`
 
-### Step 6: Create virtualenv
+#### Step 2: Create virtualenv
 
 `virtualenv -p python3.6 tgs`  
 `source tgs/bin/activate`
+
+### Conda:
+
+#### Step 1: Get Conda
+
+`curl -O https://repo.anaconda.com/archive/Anaconda3-5.3.0-Linux-x86_64.sh`
+
+`bash Anaconda3-5.3.0-Linux-x86_64.sh`
+
+Follow the prompts, then restart
 
 ### Step 7: Clone Repo
 
 `git clone https://github.com/bkahn-github/inclusive-images.git`  
 `cd inclusive-images`  
-`pip install -r requirements.txt`  
+`pip install -r requirements.txt`  Or `conda env create -f environment.yml`  
 `cd ..`
 
 
@@ -65,10 +79,9 @@ c.NotebookApp.port = 5000
 
 ```
 
-### Step 9: Run Python3.6 in kernal
+### Step 9: Run Python3.6 or Conda in kernel
 
-`python -m pip install ipykernel`  
-`python -m ipykernel install --user --name=py_36_env`
+`python -m ipykernel install --user --name=kaggle`
 
 ### Step 10: Setup Kaggle API
 

@@ -11,4 +11,6 @@ torchvision
 kaggle
 git+https://github.com/NVIDIA/apex.git
 torchsummary
-git+https://github.com/lanpa/tensorboardX
+tensorboardX
+tensorflow-gpu
+ipykernel

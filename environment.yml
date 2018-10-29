@@ -1,0 +1,21 @@
+name: inclusive-images
+dependencies:
+ - numpy
+ - pandas
+ - cython
+ - ipykernel
+ - setuptools
+ - matplotlib
+ - scikit-learn
+ - scikit-image
+ - tqdm 
+ - tensorflow-gpu
+ - pip:
+   - opencv-python
+   - mlcrate
+   - kaggle
+   - git+https://github.com/NVIDIA/apex.git
+   - torchsummary
+   - tensorboardX
+   - http://download.pytorch.org/whl/cu92/torch-0.4.1-cp36-cp36m-linux_x86_64.whl
+   - torchvision

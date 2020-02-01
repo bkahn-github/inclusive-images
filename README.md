@@ -106,3 +106,7 @@ Add your kaggle api key
 ### Step 12: Run jupyter lab
 
 `jupyter lab`
+
+## Author
+
+Bilal Khan (https://bilal.software)
